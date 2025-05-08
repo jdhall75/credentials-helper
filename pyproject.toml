@@ -5,6 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "dotenv-credential-helper"
 authors = [{name = "Jason Hall", email = "jdhall75@gmail.com"}]
+readme = "README.md"
 dynamic = ["version", "description"]
 dependencies = [
     "python-dotenv"

@@ -7,6 +7,11 @@ I could have just used `python-dotenv`, but I wanted to check file permissions
 and make sure that the file is only readable by me or the user of the script.
 
 
+### Install
+```
+python -m pip install dotenv-credential-helper
+```
+
 ```bash
 # $HOME/.credentials
 USERNAME=your_username
